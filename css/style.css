@@ -1,0 +1,70 @@
+@import 'utilities.css';
+:root{
+        --primary:#3DCFD3; /* bluish */
+        --dark:#161616; /* black */
+        --pure:#FFFFFF; /* white */
+        --ternary:#898989; /* gray */
+        --light:#F2F2F2; /* whitish */
+}
+
+
+
+/* Common class 
+to default padding, margin properties etc */
+
+*{
+        padding:0;
+        margin:0;
+        box-sizing: border-box;
+        -webkit-font-smoothing:antialiased; /*tt*/
+
+
+}
+/* declaring info about header */
+header{
+        background: var(--dark);
+        height: 800px;
+        
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    
+}
+
+/* Container class for nav */
+.container{
+        max-width:1152px;
+        /* top right bottom left */
+        padding:0 15px; 
+        margin:0 auto;
+}
+
+header nav .left a{
+        color: var(--pure);
+        text-decoration: none;
+        margin-right: 2rem;
+        text-transform: uppercase;
+        transition: all .3s ease; /* Code below deliberately missed */
+}
+
+/* curious for its function */
+header nav{
+        
+    padding: 2rem 0;
+}
+
+header nav .branding{
+        margin-right: 3rem;
+}
+
+
+header nav .left a:hover{
+        color: var(--primary);
+}
+
+/* To move button away from links  */                 
+header nav .right{
+        margin-left: 4rem;
+        
+}
