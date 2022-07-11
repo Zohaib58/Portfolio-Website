@@ -23,10 +23,13 @@ to default padding, margin properties etc */
 /* declaring info about header */
 header{
         background: var(--dark);
-        height: 800px;
+        clip-path:polygon(0 0, 100% 0, 100% 100%, 70% 85%, 0 100%)
+
+
+        
         
 }
-                
+
 body{
     font-family:'Poppins',sans-serif;
     
@@ -65,6 +68,44 @@ header nav .left a:hover{
 
 /* To move button away from links  */                 
 header nav .right{
-        margin-left: 4rem;
+        margin-left: 10rem;
         
+}
+.middle .right {
+        margin-right: 3rem;
+}
+.middle .left img{
+        width: 300px;
+        margin-right:1rem;
+}
+
+.middle .right h4{
+        font-size:1.6rem;
+        color:var(--primary);
+        margin-bottom:0.5rem ;
+
+}
+
+.middle .right h1{
+        color:var(--pure);
+        font-size:4rem;
+        font-weight:100;
+        line-height:1.2;
+        margin-bottom: 2rem;
+}
+
+.middle .right .paragraph {
+        color: var(--pure);
+        line-height: 1.9;
+        margin-bottom: 2rem;
+}
+
+.middle .right span
+{
+        color:var(--primary)
+
+}
+
+.middle .right{
+        margin-top: -7rem
 }
