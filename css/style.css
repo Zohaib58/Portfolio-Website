@@ -96,6 +96,7 @@ header nav .right{
 
 .middle .right .paragraph {
         color: var(--pure);
+        margin-right: 3rem;
         line-height: 1.9;
         margin-bottom: 2rem;
 }
