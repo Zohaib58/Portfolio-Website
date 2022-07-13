@@ -103,10 +103,68 @@ header nav .right{
 
 .middle .right span
 {
-        color:var(--primary)
+        color:var(--primary);
 
 }
 
 .middle .right{
-        margin-top: -7rem
+        margin-top: -7rem;
+}
+
+section
+{
+        padding: 6rem 0;
+        background-color: var(--pure);
+}
+
+.about .container .left img{
+        width:400px
+}
+
+.about .container .right .content h1{
+        color:var(--dark);
+        margin-bottom:1rem;
+        font-size:4rem;
+        font-weight:400;
+}
+
+.about .container .right .content h3{
+        color:var(--dark);
+        font-size: 3rem;
+        margin-bottom:1rem;
+        font-weight:400;
+}
+
+.about .container .right .content h1 span{
+        color:var(--primary);
+}
+
+.about .container .left h1{
+        color:var(--dark);
+        margin-bottom:1rem;
+        font-size:4rem;
+        font-weight:400;
+}
+
+.about .container .right .content p{
+        font-family:'Lato',sans-serif;
+        color:var(--ternary);
+        line-height:1.8;
+}
+
+
+.about .container .left h1{
+        color:var(--primary);
+}
+
+.about .container .left h4{
+        color:var(--dark);
+        font-size: 2rem;
+        margin-bottom:1rem;
+        font-weight:400;
+}
+
+.about .container .left .SAPskills{
+        margin-left : 1rem;
+        margin-bottom:1rem;
 }
