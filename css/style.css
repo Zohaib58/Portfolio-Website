@@ -158,18 +158,10 @@ section
 }
 
 .about .container .left h4{
+        font-family:'Lato',sans-serif;
         color:var(--dark);
         font-size: 2rem;
         margin-bottom:1rem;
         font-weight:400;
 }
 
-.about .container .left .SAPskills{
-        margin-left : 1rem;
-        margin-bottom:1rem;
-}
-
-.about .container .left .Generalskills{
-        margin-left : 1rem;
-        margin-bottom:1rem;
-}

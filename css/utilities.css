@@ -52,3 +52,13 @@
 .flex-1{
     flex:1
 }
+
+.skills{
+    margin-left : 1rem;
+    margin-bottom: 1rem;
+  
+}
+
+.skillsLi{
+    margin-bottom: 0.5rem;
+}
