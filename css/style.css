@@ -159,7 +159,7 @@ section
 
 .about .container .left h4{
         font-family:'Lato',sans-serif;
-        color:var(--dark);
+        color:var(--ternary);
         font-size: 2rem;
         margin-bottom:1rem;
         font-weight:400;
