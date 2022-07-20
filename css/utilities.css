@@ -63,3 +63,17 @@
     margin-bottom: 0.5rem;
     font-family:'Lato',sans-serif;
 }
+
+.section-heading{
+    color:var(--dark); 
+    text-align: center;
+    margin-bottom:1rem;
+    line-height: 0.5;
+ }
+ .section-heading span{
+     color:var(--primary);
+ }
+
+ .contactUsh5{
+    color:var(--ternary)
+ }

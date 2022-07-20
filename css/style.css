@@ -165,3 +165,30 @@ section
         font-weight:400;
 }
 
+.pContactUs{
+        text-align: center;
+}
+
+
+.contact .container .cardwrapper .Phone img{
+        width:20px
+        
+}
+
+.contact .container .cardwrapper .Email img{
+        width:30px
+        
+}
+
+.contact .container .cardwrapper .Office img{
+        width:40px
+        
+}
+
+.contact .container .cardwrapper{
+        margin-top : 6rem;
+        margin-left : 1.5rem;
+        text-align: center;
+        display:grid;
+        grid-template-columns: repeat(3, 1fr);
+}
