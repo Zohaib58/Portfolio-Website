@@ -43,6 +43,12 @@ body{
         margin:0 auto;
 }
 
+.containerCarousel{
+        /* top right bottom left */
+        padding:0 15px; 
+        margin:0 auto;
+}
+
 header nav .left a{
         color: var(--pure);
         text-decoration: none;
@@ -228,3 +234,7 @@ section
         text-align: center;
 }
 
+.carousel-item{
+        height: 16rem;
+background-color: var(--primary);
+}
