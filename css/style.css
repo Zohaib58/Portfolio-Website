@@ -192,3 +192,39 @@ section
         display:grid;
         grid-template-columns: repeat(3, 1fr);
 }
+
+.contact .container form{
+        margin-top:2rem;
+}
+.contact .container .input-wrap
+{
+        display:grid;
+        grid-template-columns:repeat(2,1fr);
+        grid-gap:2rem;
+        
+        
+}
+.contact .container input, textarea{
+        padding:0.5rem;
+        margin-bottom:2rem;
+        font-size: 0.9rem;
+}
+.contact .container .input-wrap-2{
+        display:flex;
+        flex-direction: column;
+
+}
+
+.contact .container input:focus{
+        outline:none;
+
+}
+
+.contact .container textarea:focus{
+        outline:none;
+}
+
+.btn-wrapper{
+        text-align: center;
+}
+
