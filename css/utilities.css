@@ -15,7 +15,7 @@
     justify-content: center;
 }
 
-.btn{
+.btn-nb{
     padding:0.8rem 2rem;
     font-size: 1rem;
     font-weight: 600;
@@ -25,26 +25,26 @@
     transition: all .3s ease; /* code below left delib */
 }
 
-.btn-primary{
+.btn-nb-primary{
     background:var(--primary);
     color:var(-- dark);
    
 }
 
-.btn-primary:hover{
+.btn-nb-primary:hover{
     background:transparent;
     border-color: var(--primary);
     color:var(--primary);
 }
 
 
-.btn-secondary{
+.btn-nb-secondary{
     background:transparent;
     border-color: var(--primary);
     color:var(--primary);        
 }
 
-.btn-secondary:hover{
+.btn-nb-secondary:hover{
     background:var(--primary);
     color:var(--dark)
 }
