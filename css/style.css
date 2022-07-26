@@ -241,10 +241,11 @@ section
 .carousel-item
 {
         margin-left:321px;
-        
+        position: relative;
         height:24rem;
         width:30rem;
         background-color: var(--primary);
+
 }
 
 .Project{
