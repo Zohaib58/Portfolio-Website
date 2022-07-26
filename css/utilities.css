@@ -77,3 +77,13 @@
  .contactUsh5{
     color:var(--ternary)
  }
+
+ .project-heading{
+    margin-bottom:5rem;
+    color:var(--primary); 
+    text-align: center;
+    
+ }
+ .project-heading span{
+     color:var(--pure);
+ }
