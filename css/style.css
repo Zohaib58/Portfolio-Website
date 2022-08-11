@@ -9,6 +9,7 @@
 
 
 
+
 /* Common class 
 to default padding, margin properties etc */
 
@@ -34,6 +35,11 @@ body{
     font-family:'Poppins',sans-serif;
     
 }
+
+html{
+        scroll-behavior:smooth;
+}
+
 
 /* Container class for nav */
 .container{
@@ -119,7 +125,7 @@ header nav .right{
 
 section
 {
-        padding: 6rem 0;
+        padding:6rem 0;
         background-color: var(--pure);
 }
 
@@ -254,4 +260,24 @@ section
         background: var(--dark);
         clip-path:polygon(0 0, 100% 0, 100% 100%, 70% 90%, 0 100%)
 
+}
+
+footer{
+        background: var(--dark);
+        text-align: center;
+        padding:2rem 0;
+}
+
+.footer-logo{
+        margin-bottom: 1rem;
+        width:175px;
+}
+
+.footer-icons{
+        margin-bottom: 1rem;
+        margin-left:-4rem;
+}
+
+.footer-copyright{
+        color:var(--pure);
 }
