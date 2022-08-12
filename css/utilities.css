@@ -87,3 +87,13 @@
  .project-heading span{
      color:var(--pure);
  }
+
+ .projectNameCarousel{
+    color:var(--dark); 
+    font-family:'Lato',sans-serif;
+    margin-top:0.5rem;
+    font-size: 1.5rem;
+    /*font-weight: 600;*/
+    text-align: center;
+    
+ }
