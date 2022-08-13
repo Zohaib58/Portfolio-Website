@@ -79,7 +79,7 @@
  }
 
  .project-heading{
-    margin-bottom:5rem;
+    margin-bottom:2.5rem;
     color:var(--primary); 
     text-align: center;
     
@@ -93,7 +93,38 @@
     font-family:'Lato',sans-serif;
     margin-top:0.5rem;
     font-size: 1.5rem;
-    /*font-weight: 600;*/
+    font-weight: 600;
     text-align: center;
     
  }
+ 
+ .carouselContent{
+    padding: 20px 80px 0px 80px; 
+    margin:0 auto;
+    font-family:'Lato',sans-serif;
+    font-weight:600;
+          
+    
+ }
+
+ .carouselContent span{
+    color:var(--dark); 
+    font-family:'Lato',sans-serif;
+    font-size: 1.1rem;
+    
+ }
+
+.carouselLi{
+    margin-bottom: 0.5rem;
+    font-family:'Lato',sans-serif;
+}
+
+.purposeCarousel, .featuresCarousel
+{
+    margin-bottom:1rem;
+}
+
+.experienceLi{
+    margin-bottom: 0.2rem;
+    font-family:'Lato',sans-serif;
+}

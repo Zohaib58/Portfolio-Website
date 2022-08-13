@@ -247,7 +247,7 @@ section
 .carousel{
         position:center;
         width:40rem;
-        height:24rem;
+        height:27rem;
 }
 
 .carousel-indicators
@@ -262,7 +262,7 @@ section
         */
         position:center;
         width:40rem;      
-        height:24rem; 
+        height:27rem; 
         background-color: var(--primary);
 
 }
@@ -292,6 +292,45 @@ section
         clip-path:polygon(0 0, 100% 0, 100% 100%, 70% 90%, 0 100%)
 
 }
+
+.experience{
+        padding-top:0rem;
+        margin-top:-1.5rem;
+}
+
+.experience-heading{
+        font-family:'Lato',sans-serif;
+        color:var(--dark);
+        font-size: 1.5rem;
+        margin-bottom:0.5rem;
+        font-weight:300;
+}
+
+.experience-heading span{
+        font-family:'Lato',sans-serif;
+        color:var(--primary);
+        font-size: 1.5rem;
+        margin-bottom:0.5rem;
+        font-weight:300;
+}
+
+.experience-heading a{
+        font-family:'Lato',sans-serif;
+        color:var(--primary);
+        font-size: 1.5rem;
+        margin-bottom:0.5rem;
+        font-weight:300;
+}
+
+.experience-subheading{
+        font-family:'Lato',sans-serif;
+        color:var(--ternary);
+        font-size: 1rem;
+        margin-bottom:0.5rem;
+        font-weight:300;
+}
+
+
 
 footer{
         background: var(--dark);
