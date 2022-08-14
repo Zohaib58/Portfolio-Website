@@ -240,9 +240,6 @@ section
         text-align: center;
 }
 
-.caroSec{
-        
-}
 
 .carousel{
         position:center;
@@ -351,3 +348,51 @@ footer{
 .footer-copyright{
         color:var(--pure);
 }
+
+.carousel-experience{
+        margin-top:6rem;
+        margin-left:3rem;
+        position:center;
+        width:29.5rem;
+        height:18rem;
+}
+
+.carousel-indicatorsExperience
+{
+        position:center;
+}
+.carousel-itemExperience
+{       
+        /*margin-left:321px;
+        position: relative;
+        width:84rem;
+        */
+        
+        width:29.5rem;      
+        height:18rem; 
+
+        text-align:center;
+        background:var(--pure);
+
+}
+
+.STEMlogo{
+        padding-top:2rem;
+}
+
+.SAPFlogo{
+        padding-top:3rem;
+}
+
+
+.SAPAlogo{
+        padding-top:5rem;
+}
+
+.caroSecExp .carousel .carousel-control-next-icon { background-image: none;
+        background-image: url("../images/download\ \(3\).png");
+}
+.caroSecExp .carousel .carousel-control-prev-icon { background-image: none;
+        background-image: url("../images/download\ \(2\).png");
+}
+
