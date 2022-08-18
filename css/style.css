@@ -177,6 +177,10 @@ section
         font-weight:400;
 }
 
+
+.contact{
+        background:var(--light);
+}
 .pContactUs{
         text-align: center;
 }
@@ -292,7 +296,9 @@ section
 
 .experience{
         padding-top:0rem;
-        margin-top:-1.5rem;
+        margin-top:0.0rem;
+        background:var(--pure);
+        clip-path:polygon(0 0, 100% 0, 100% 100%, 70% 90%, 0 100%)
 }
 
 .experience-heading{
@@ -396,3 +402,39 @@ footer{
         background-image: url("../images/download\ \(2\).png");
 }
 
+.carousel-GDSC{
+        margin-top:6rem;
+        margin-left:3rem;
+        position:center;
+        width:29.5rem;
+        height:18rem;
+}
+
+.carousel-itemGDSC
+{       
+        /*margin-left:321px;
+        position: relative;
+        width:84rem;
+        */
+        
+        width:29.5rem;      
+        height:18rem; 
+
+        text-align:center;
+        background:var(--pure);
+
+}
+
+.AnalyticsLogo{
+        padding-top:2.5rem;
+}
+
+
+.NumpyLogo{
+        padding-top:1.8rem;
+}
+
+
+.PandasLogo{
+        padding-top:0.7rem;
+}
